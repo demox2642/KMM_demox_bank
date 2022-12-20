@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="compose-desktop">
+    <output-path>$PROJECT_DIR$/common/chat/compose/build/libs</output-path>
+    <root id="archive" name="compose-desktop.jar">
+      <element id="module-output" name="demox_bank.common.chat.compose.desktopMain" />
+    </root>
+  </artifact>
+</component>

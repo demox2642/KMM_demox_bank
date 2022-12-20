@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="umbrella-core-desktop">
+    <output-path>$PROJECT_DIR$/common/umbrella-core/build/libs</output-path>
+    <root id="archive" name="umbrella-core-desktop.jar">
+      <element id="module-output" name="demox_bank.common.umbrella-core.desktopMain" />
+    </root>
+  </artifact>
+</component>
