@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/auth" />
+            <option value="$PROJECT_DIR$/common/auth/api" />
+            <option value="$PROJECT_DIR$/common/auth/compose" />
+            <option value="$PROJECT_DIR$/common/auth/data" />
+            <option value="$PROJECT_DIR$/common/auth/presentation" />
+            <option value="$PROJECT_DIR$/common/chat" />
+            <option value="$PROJECT_DIR$/common/chat/api" />
+            <option value="$PROJECT_DIR$/common/chat/compose" />
+            <option value="$PROJECT_DIR$/common/chat/data" />
+            <option value="$PROJECT_DIR$/common/chat/presentation" />
+            <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/core-compose" />
+            <option value="$PROJECT_DIR$/common/core-utils" />
+            <option value="$PROJECT_DIR$/common/invest" />
+            <option value="$PROJECT_DIR$/common/invest/api" />
+            <option value="$PROJECT_DIR$/common/invest/compose" />
+            <option value="$PROJECT_DIR$/common/invest/data" />
+            <option value="$PROJECT_DIR$/common/invest/presentation" />
+            <option value="$PROJECT_DIR$/common/main" />
+            <option value="$PROJECT_DIR$/common/main/api" />
+            <option value="$PROJECT_DIR$/common/main/compose" />
+            <option value="$PROJECT_DIR$/common/main/data" />
+            <option value="$PROJECT_DIR$/common/main/presentation" />
+            <option value="$PROJECT_DIR$/common/remittance" />
+            <option value="$PROJECT_DIR$/common/remittance/api" />
+            <option value="$PROJECT_DIR$/common/remittance/compose" />
+            <option value="$PROJECT_DIR$/common/remittance/data" />
+            <option value="$PROJECT_DIR$/common/remittance/presentation" />
+            <option value="$PROJECT_DIR$/common/service" />
+            <option value="$PROJECT_DIR$/common/service/api" />
+            <option value="$PROJECT_DIR$/common/service/compose" />
+            <option value="$PROJECT_DIR$/common/service/data" />
+            <option value="$PROJECT_DIR$/common/service/presentation" />
+            <option value="$PROJECT_DIR$/common/umbrella-compose" />
+            <option value="$PROJECT_DIR$/common/umbrella-core" />
+            <option value="$PROJECT_DIR$/desktop" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
