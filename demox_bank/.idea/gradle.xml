@@ -48,6 +48,7 @@
             <option value="$PROJECT_DIR$/common/umbrella-compose" />
             <option value="$PROJECT_DIR$/common/umbrella-core" />
             <option value="$PROJECT_DIR$/desktop" />
+            <option value="$PROJECT_DIR$/server" />
           </set>
         </option>
       </GradleProjectSettings>
