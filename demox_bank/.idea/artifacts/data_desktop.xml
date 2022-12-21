@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="data-desktop">
-    <output-path>$PROJECT_DIR$/common/chat/data/build/libs</output-path>
+    <output-path>$PROJECT_DIR$/common/service/data/build/libs</output-path>
     <root id="archive" name="data-desktop.jar">
-      <element id="module-output" name="demox_bank.common.chat.data.desktopMain" />
+      <element id="module-output" name="demox_bank.common.service.data.desktopMain" />
     </root>
   </artifact>
 </component>

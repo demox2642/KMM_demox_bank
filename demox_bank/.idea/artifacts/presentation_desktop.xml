@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="presentation-desktop">
-    <output-path>$PROJECT_DIR$/common/chat/presentation/build/libs</output-path>
+    <output-path>$PROJECT_DIR$/common/service/presentation/build/libs</output-path>
     <root id="archive" name="presentation-desktop.jar">
-      <element id="module-output" name="demox_bank.common.chat.presentation.desktopMain" />
+      <element id="module-output" name="demox_bank.common.service.presentation.desktopMain" />
     </root>
   </artifact>
 </component>
