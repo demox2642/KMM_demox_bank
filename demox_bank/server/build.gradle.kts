@@ -22,26 +22,25 @@ repositories {
 }
 
 dependencies {
-    implementation("io.ktor:ktor-server-core:$ktor_version")
-    implementation("io.ktor:ktor-server-content-negotiation:$ktor_version")
-    implementation("io.ktor:ktor-server-cio:$ktor_version")
-    implementation("io.ktor:ktor-server-netty:$ktor_version")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
+    implementation(Dependencies.Ktor.server_core)
+    implementation(Dependencies.Ktor.server_negotiation)
+    implementation(Dependencies.Ktor.server_cio)
+    implementation(Dependencies.Ktor.server_netty)
+    implementation(Dependencies.Ktor.kotlin_json)
 
-    implementation("org.jetbrains.exposed:exposed-core:$exposed_version")
-    implementation("org.jetbrains.exposed:exposed-dao:$exposed_version")
-    implementation("org.jetbrains.exposed:exposed-jdbc:$exposed_version")
+    implementation(Dependencies.Exposed.core)
+    implementation(Dependencies.Exposed.dao)
+    implementation(Dependencies.Exposed.jdbc)
 
-    implementation("org.postgresql:postgresql:42.2.2")
+    implementation(Dependencies.Postgresql.sql)
 
-    implementation("ch.qos.logback:logback-classic:$logback_version")
-    testImplementation("io.ktor:ktor-server-tests:$ktor_version")
+    implementation(Dependencies.Logback.logback)
+    testImplementation(Dependencies.Ktor.server_test)
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 
-    implementation("io.ktor:ktor-client-core:$ktor_version")
-    implementation("io.ktor:ktor-client-cio:$ktor_version")
-    implementation("io.ktor:ktor-client-logging:$ktor_version")
-    implementation("ch.qos.logback:logback-classic:$logback_version")
+    implementation(Dependencies.Ktor.core)
+    implementation(Dependencies.Ktor.cio)
+    implementation(Dependencies.Ktor.logging)
 }
 
 tasks.create("stage") {
