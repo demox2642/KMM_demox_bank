@@ -41,7 +41,7 @@ class RegisterController(private val call: ApplicationCall) {
                 CoroutineScope(Dispatchers.IO).launch {
                     delay(35000L)
 
-                    val token = ConfCodeCache.getConfCodeCache(userId = userId.id).response!!.id
+                    val token = ConfCodeCache.getConfCodeCache(userId = userId.id).response?.id
                     if (UserToken.checkTokenByConfCode(token!!).not()) {
                         ConfCodeCache.deleteConfCodeCache(userId = userId.id)
                         User.delUser(userId = userId.id)
