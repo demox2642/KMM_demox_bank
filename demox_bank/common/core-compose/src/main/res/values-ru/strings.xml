@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="brokerage_account" >брокерский счет</string>
+    <string name="incorrect_code" >Неверный код</string>
+    <string name="did_not_receive_the_code" >Не получили код?</string>
+    <string name="the_code_is_valid" >Код действителен %1$S минут</string>
+    <string name="invest_offer" >Вы получили разрешение на инвестирование для получения инвестиционного кредита на выгодных условиях</string>
+    <string name= "finance_offer" >Вам одобрены Особые условия кредита с процентной ставкой 5,4%.</string>
+    <string name = "person_manager_head" >Ваш персональный менеджер</string>
+    <string name = "person_manager_body" >Помощь в управлении финансами, консультации по инвестициям</string>
+    <string name="asset_overview">Обзор активов</string>
+    <string name="total_excluding_credits" >Общая стоимость без учета кредитов</string>
+    <string name="expenses_and_income" >Расходы и доход</string>
+    <string name="detailing_your_invoices" >Детализация ваших счетов</string>
+    <string name="History">История</string>
+    <string name="Withdraw">Вывести</string>
+    <string name="Top_up">Пополнить</string>
+    <string name="What_to_buy">Что купить?</string>
+    <string name="Free_currency">Свободная валюта</string>
+    <string name="total" >Итого</string>
+    <string name="due" >Due</string>
+    <string name="account_redacted" >• • • • • </string>
+    <string name="accounts" >Учетные записи</string>
+    <string name="bills" >Счета</string>
+    <string name="sort" >Сортировать</string>
+    <string name="see_all" >УВИДЕТЬ ВСЕ</string>
+    <string name="back" > назад</string>
+    <string name="Invest">Инвестировать</string>
+    <string name="Tenge">Тенге</string>
+    <string name="Dollar">Доллар</string>
+    <string name="Strategy">Стратегия</string>
+    <string name="Strategys">Стратегии</string>
+    <string name="World_ETFs">Мировые ETF</string>
+    <string name="in_a_year">за год</string>
+    <string name="Manager">Управляющий</string>
+    <string name="Risk">Риск</string>
+    <string name="Entry_amount">Сумма входа</string>
+    <string name="Best_ideas">Лучшие идеи</string>
+    <string name="Best_ideas_text">Наши специалисты ежедневно анализируют ситуацию на фондовом рынке и на основании полученных данных предлагают лучшие инвестиционные идеи.</string>
+    <string name="Everything">Все</string>
+    <string name="Personal_selection">Персональный подбор</string>
+    <string name="best_product_bottom">Подбор лучшего продукта \n
+        на ваших условиях</string>
+    <string name="best_product_text">Укажите желаемый риск и сумму инвестиций и мы предложим вам лучшее решение</string>
+    <string name="Start">Начать</string>
+    <string name="Stock">Акции</string>
+    <string name="Currency">Валюта</string>
+    <string name="Buy">Купить</string>
+    <string name="Sell">Продать</string>
+    <string name="Whot_to_by">Что купить?</string>
+    <string name="search_text">Инвестор, стратегия, бумага, тикер</string>
+    <string name="Ready_strategies">Готовые стратегии</string>
+    <string name="Personal_choice">Персональный выбор</string>
+    <string name="Personal_manager">Персональный менеджер</string>
+    <string name="Save">Сохранить</string>
+    <string name="hide">скрыть</string>
+    <string name="Hidden_widgets">Скрытые виджеты</string>
+    <string name="change_sort">изменить сортировку</string>
+    <string name="Cashback_and_privileges">Кэшбэк и привилегии</string>
+    <string name="Favorites">Избранные</string>
+    <string name="Loans">Кредиты</string>
+    <string name="Currency_exchange">Обмен валюты</string>
+    <string name="Call_to_the_bank">Звонок в банк</string>
+    <string name="support">Круглосуточная поддержка</string>
+    <string name="label_back">Назад</string>
+
+    <string-array name="strategy_type_names">
+        <item>Все</item>
+        <item>Низкий</item>
+        <item>Средний</item>
+        <item>Высокий</item>
+    </string-array>
+
+    <string-array name = "month_names">
+        <item> январь </item>
+        <item> февраль </item>
+        <item> март </item>
+        <item> апрель </item>
+        <item> май </item>
+        <item> июнь </item>
+        <item> июль </item>
+        <item> август </item>
+        <item> сентябрь </item>
+        <item> октябрь </item>
+        <item> ноябрь </item>
+        <item> декабрь </item>
+    </string-array>
+
+    <string-array name="strategy_filters">
+        <item>Детали</item>
+        <item>Информация</item>
+        <item>Структура</item>
+        <item>Условия</item>
+    </string-array>
+
+    <string-array name="stock_filters">
+        <item>Детали</item>
+        <item>Информация</item>
+        <item>Условия</item>
+    </string-array>
+
+    <string-array name="strategy_structure">
+        <item>Индустрия</item>
+        <item>География</item>
+        <item>Эмитенты</item>
+    </string-array>
+
+    <string-array name="credit_card_filter">
+        <item> История </item>
+        <item> График платежей </item>
+    </string-array>
+
+    <string-array name="account_detail_filters">
+        <item>Обычные</item>
+        <item>SWIFT-реквизиты</item>
+
+    </string-array>
+    <string name="strategy_count_product" >Доступно %1$S продукта</string>
+    <string name="Your_balance">Ваш баланс:</string>
+    <string name="Profitability">Доходность</string>
+    <string name="Maxdrawdown">Макс. просадка</string>
+    <string name="Recperiod">Рек. период</string>
+    <string name="Investment_geography">География инвестиций</string>
+    <string name="Commission">Комиссия</string>
+    <string name="from_profit">от прибыли</string>
+    <string name="author">автор</string>
+    <string name="status">статус</string>
+    <string name="balance">баланс</string>
+    <string name="Purchase_fee">Комиссия за покупку</string>
+    <string name="Withdrawal_commission">Комиссия на вывод</string>
+    <string name="Strategy_management_fee">Комиссия за управление стратегией</string>
+    <string name="In_the_briefcase">В портфеле</string>
+    <string name="british_pound">британский фунт</string>
+    <string name="american_dollar">американский доллар</string>
+    <string name="russian_ruble">российский рубль</string>
+    <string name="ukrainian_hryvnia">украинская гривна</string>
+    <string name="euro">евро</string>
+    <string name="one_product">один продукт:</string>
+    <string name="_total">итого: </string>
+    <string name="commissions">комиссии:</string>
+    <string name="strategiInfo1">Вы подключаетесь к стратегии, которую создал трейдер, и зарабатываете. Определенный процент дохода передается автору стратегии.</string>
+    <string name="strategiInfo2">Позвольте себе торговать как лучший трейдер. Независимо от того, изучили ли вы основы или у вас нет времени наблюдать за рынками, теперь вы можете легко использовать опыт других трейдеров.  Наши профессионали ежедневно следят за рынком и корректируют стратегию при необходимости</string>
+    <string name="personalSelectionInfoHeading">Что такое персональный подбор?</string>
+    <string name="personalSelectionInfo1">Персональный подбор лучшей стратегии исходя из вашего желания рисковать</string>
+    <string name="stockInfo1">Акция - ценная бумага, свидетельствующая о взносе определённого пая в предприятие, дающая её владельцу право собственности и участия в прибылях.</string>
+    <string name="stockInfo2">Акция представляет собой инструмент для инвестирования капитала, она относится к долевым ценным бумагам. Инвестиционный потенциал акций зависит от ряда характеристик, основными из которых являются финансовое состояние эмитента, надёжность, ликвидность и доходность.</string>
+    <string name="stockInfo3">Инвестиционные возможности обыкновенных акций связаны с тем, что они могут обращаться на биржевом или внебиржевом рынке и приносить доход не только в форме дивидендов, но и за счёт изменения стоимости в разные периоды времени. Колебания стоимости могут быть очень существенными и значительно превосходить размер дивидендов. Многие акционерные общества не выплачивают дивидендов, но при этом стоимость их акций может увеличиваться в несколько раз</string>
+    <string name="personalSelectionScreen">Выберите валюту и укажите с какой суммы вы хотели бы начать инвестировать?</string>
+    <string name="high_level">высокий</string>
+    <string name="average_level">средний</string>
+    <string name="low_level">низкий</string>
+    <string name="personal_selection_warning">Обратите внимание, что уровень риска зависит от уровня возможной потери или увеличения дохода в портфеле.</string>
+    <string name="done">готово</string>
+    <string name="risk_middle">👌\nСредний риск \nОтлично!</string>
+    <string name="risk_slow">🎓\nТише едешь\nдальше будешь</string>
+    <string name="risk_mothing">🚀\nКто не рискует,\nтот не пьет \nшампанского</string>
+    <string name="Filled">Заполнено </string>
+    <string name="personal_selection_money_qw">Укажите, с какой суммы вы хотели бы начать инвестировать?</string>
+    <string name="money_invest">Сумма инвестиций</string>
+    <string name="find">найти</string>
+    <string name="stock_company">Акции, компании</string>
+    <string name="stock_information">Apple — американская корпорация, производитель персональных и планшетных компьютеров, аудиоплееров, смартфонов, программного обеспечения. Один из пионеров в области персональных компьютеров и современных многозадачных операционных систем с графическим интерфейсом. Штаб-квартира — в Купертино, штат Калифорния.</string>
+    <string name="chat">чат</string>
+    <string name="chat_menu1">Ваш доход\nс ZaazFin</string>
+    <string name="chat_menu2">Топ 10 - лучшего\nкешбэа </string>
+    <string name="chat_menu3">Легко\nинвестировать </string>
+    <string name="forgot_pin">забыли pin?</string>
+    <string name = "Show_all_products"> Показать все продукты </string>
+    <string name = "Hidden_products"> "Скрытые продукты" </string>
+    <string name="investment_offer_heder">Вы бы заработали 3 000₽ </string>
+    <string name="investment_offer_text">Если бы инвестировали в стратегию Мировые ETF 10 000₽ год назад Зачем ждать? Начните прямо сейчас!</string>
+    <string name="invest_button_name">Стать инвестором</string>
+    <string name = "home_screen_setting_message"> "Настройте отображение и порядок виджетов на главном экране по своему усмотрению" </string>
+    <string name = "attach"> прикрепить </string>
+    <string name="send">отправить</string>
+    <string name="text">текст</string>
+    <string name="background">фон</string>
+    <string name = "product"> продукт </string>
+    <string name = "all_time"> за все время </string>
+    <string name = "product_cost"> Стоимость продукта </string>
+    <string name = "structure"> структура </string>
+    <string name="info">подробнее</string>
+    <string name="code_from_SMS">Введите код из SMS</string>
+    <string name="permission_title">Запрос разрешений</string>
+    <string name="permission_message">Для прикрепления изображений необходимо предоставить приложению доступ к галерее.</string>
+    <string name="permission_conferm_bt">Разрешить</string>
+    <string name="permission_dismiss_bt">Позже</string>
+    <string name="show_card_info">Показать данные</string>
+    <string name="copy">копировать</string>
+    <string name="card_varning">Это CVC2/CVV2- код
+Никому его не сообщайте</string>
+    <string name="card">Карта</string>
+    <string name="transfer">Перевод</string>
+    <string name="top_up">Пополнить</string>
+    <string name="requisites">Реквизиты</string>
+    <string name="replenishment">пополнение</string>
+    <string name="service">сервис</string>
+    <string name="supermarket">супермаркет</string>
+    <string name="auto_services">автоуслуги</string>
+    <string name="other">другое</string>
+    <string name="in_processing">в обработке</string>
+    <string name="declined">отклонено</string>
+    <string name="returned">возвращено</string>
+    <string name="expired">просрочен</string>
+    <string name="pending">ожидание</string>
+    <string name="Recipient">Получатель</string>
+    <string name="Account_number">Номер счета</string>
+    <string name="Purpose_of_payment">Назнчение платежа</string>
+    <string name="BIC">БИК</string>
+    <string name="Bank_of_recipient">Банк-получатель</string>
+    <string name="Corresponding_account">Корр.счет</string>
+    <string name="TIN_of_the_Bank">ИНН Банка</string>
+    <string name="checkpoint_if_needed">КПП при необходимости</string>
+    <string name="QR_code_with_details">QR-код с реквизитами</string>
+    <string name="add">добавить</string>
+    <string name="Add_new_card">Добавить новую карту</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Change_widgets">Изменить виджеты</string>
+    <string name="setting_message">Настройте отображение и порядок виджетов на экране по своему усмотрению</string>
+    <string name="Сustomize_home_screen">Настроить главный экран</string>
+    <string name="Asset_overview">Обзор активов</string>
+    <string name="Expenses">Расходы</string>
+    <string name="Income">Доход</string>
+    <string name="card_type">тип карты</string>
+    <string name="detail">подробности</string>
+    <string name="brokerage_account_in">брокерский счет в</string>
+    <string name="for_all_time">за все время</string>
+    <string name="Customize_invest_screen">Настроить экран инвестиций</string>
+    <string name="profit">прибыль</string>
+    <string name="Clear">Очистить</string>
+    <string name="investCard_image">изображение investCard</string>
+    <string name="search">поиск</string>
+    <string name="logo">логотип</string>
+    <string name="plus">плюс</string>
+    <string name="error">ошибка</string>
+</resources>

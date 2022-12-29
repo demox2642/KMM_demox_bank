@@ -7,5 +7,5 @@ plugins {
 kotlin{
     jvm("desktop")
     android()
-    ios()
+ //   ios()
 }

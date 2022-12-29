@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="incorrect_code" >Incorrect code</string>
+    <string name="did_not_receive_the_code" >Didn\'t receive the code?</string>
+    <string name="the_code_is_valid" >The code is valid for another %1$S minutes</string>
+    <string name="invest_offer" >You have received investment approval for an investment loan on favorable terms</string>
+    <string name= "finance_offer" >You have been approved Special loan conditions with an interest rate of 5,4%</string>
+    <string name = "person_manager_head" >Your personal manager</string>
+    <string name = "person_manager_body" >Financial management assistance, investment advice</string>
+    <string name="asset_overview" translatable="false">Asset overview</string>
+    <string name="total_excluding_credits" >Total cost excluding credits</string>
+    <string name="expenses_and_income" >Expenses and income</string>
+    <string name="detailing_your_invoices" >Detailing your invoices</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="USD" translatable="false">USD</string>
+    <string name="History">History</string>
+    <string name="Withdraw">Withdraw</string>
+    <string name="Top_up">Top up</string>
+    <string name="What_to_buy">What to buy?</string>
+    <string name="Free_currency">Free currency</string>
+    <string name="Tenge">Tenge</string>
+    <string name="Dollar">Dollar</string>
+    <string name="Strategy">Strategy</string>
+    <string name="Strategys">Strategy</string>
+    <string name="World_ETFs">World ETFs</string>
+    <string name="in_a_year">in a year</string>
+    <string name="Manager">Manager</string>
+    <string name="Risk">Risk</string>
+    <string name="Entry_amount">Entry amount</string>
+    <string name="Best_ideas">Best ideas</string>
+    <string name="Best_ideas_text">Our experts daily analyze the situation on the stock market and, based on the data obtained, offer the best investment ideas.</string>
+
+    <string name="total" >Total</string>
+    <string name="due" >Due</string>
+    <string name="account_redacted" >• • • • • </string>
+    <string name="accounts" >Accounts</string>
+    <string name="bills" >Bills</string>
+    <string name="sort" >Sort</string>
+    <string name="see_all" >SEE ALL</string>
+    <string name="back" >back</string>
+    <string name="Invest">Invest</string>
+    <string name="brokerage_account">brokerage account</string>
+    <string name="Everything">Everything</string>
+    <string name="Personal_selection">Personal selection</string>
+    <string name="best_product_bottom">The best product \n
+        on your terms</string>
+    <string name="best_product_text">Specify the desired risk and investment amount and we will offer you the best solution</string>
+    <string name="Start">Start</string>
+    <string name="Stock">Stock</string>
+    <string name="Currency">Currency</string>
+    <string name="Buy">Buy</string>
+    <string name="Sell">Sell</string>
+    <string name="Whot_to_by">Whot to by?</string>
+    <string name="search_text">Investor, strategy, paper, ticker</string>
+    <string name="Ready_strategies">Ready strategies</string>
+    <string name="Personal_choice">Personal choice</string>
+    <string name="Personal_manager">Personal manager</string>
+    <string name="Save">Save</string>
+    <string name="hide">hide</string>
+    <string name="Hidden_widgets">Hidden widgets</string>
+    <string name="change_sort">change sort</string>
+    <string name="Cashback_and_privileges">Cashback and privileges</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Loans">Loans</string>
+    <string name="Currency_exchange">Currency exchange</string>
+    <string name="Call_to_the_bank">Call to the bank</string>
+    <string name="support">24/7 support</string>
+    <string name="label_back">Back</string>
+
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="strategy_type_names">
+        <item>Everything</item>
+        <item>Low</item>
+        <item>Average</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="strategy_filters">
+        <item>Details</item>
+        <item>Information</item>
+        <item>Structure</item>
+        <item>Conditions</item>
+    </string-array>
+
+    <string-array name="time_filters">
+        <item>D</item>
+        <item>W</item>
+        <item>1M</item>
+        <item>6M</item>
+        <item>1Y</item>
+        <item>All time</item>
+    </string-array>
+
+    <string-array name = "stock_filters">
+        <item> Details </item>
+        <item> Information </item>
+        <item> Terms </item>
+    </string-array>
+
+    <string-array name="strategy_structure">
+        <item> Industry </item>
+        <item> Geography </item>
+        <item> Issuers </item>
+    </string-array>
+
+    <string-array name="credit_card_filter">
+        <item> History </item>
+        <item> Payment schedule </item>
+    </string-array>
+
+    <string-array name="account_detail_filters">
+        <item>Regular</item>
+        <item>SWIFT details</item>
+    </string-array>
+<string name="info">info</string>
+    <string name="strategy_count_product" >There are %1$S products available</string>
+    <string name="Your_balance">Your balance:</string>
+    <string name="Profitability">Profitability</string>
+    <string name="Maxdrawdown">Max. drawdown</string>
+    <string name="Recperiod">Rec. period</string>
+    <string name="Investment_geography">Investment geography</string>
+    <string name="Commission">Commission</string>
+    <string name="from_profit">from profit</string>
+    <string name="author">author</string>
+    <string name="status">status</string>
+    <string name="balance">balance</string>
+    <string name="Purchase_fee">Purchase fee</string>
+    <string name="Withdrawal_commission">Withdrawal commission</string>
+    <string name="Strategy_management_fee">Strategy management fee</string>
+    <string name="In_the_briefcase">In the briefcase</string>
+    <string name="british_pound">british pound</string>
+    <string name="american_dollar">american dollar</string>
+    <string name="russian_ruble">russian ruble</string>
+    <string name="ukrainian_hryvnia">ukrainian hryvnia</string>
+    <string name="euro">euro</string>
+    <string name="one_product">one product:</string>
+    <string name="_total">total: </string>
+    <string name="commissions">commissions:</string>
+    <string name="strategiInfo1">You connect to the strategy that the trader has created and you earn. A certain percentage of the income is passed on to the author of the strategy.</string>
+    <string name="strategiInfo2">Let yourself trade like the best trader. Whether you learned the basics or do not have time to watch the markets, you can now easily leverage the experience of other traders. Our professionals monitor the market on a daily basis and adjust the strategy if necessary</string>
+    <string name="personalSelectionInfoHeading">What is Personal Matching?</string>
+    <string name="personalSelectionInfo1">Personal selection of the best strategy based on your desire to take risks</string>
+    <string name="stockInfo1">A share is a security that testifies to the contribution of a certain share to an enterprise, which gives its owner the right of ownership and participation in profits.</string>
+    <string name="stockInfo2" tools:ignore="MissingTranslation">A share is an instrument for investing capital, it belongs to equity securities. The investment potential of shares depends on a number of characteristics, the main of which are the financial condition of the issuer, reliability, liquidity and profitability.</string>
+    <string name="stockInfo3">The investment opportunities of ordinary shares are associated with the fact that they can be traded on the exchange or over-the-counter market and generate income not only in the form of dividends, but also due to changes in value in different periods of time. Fluctuations in value can be very significant and greatly exceed the dividend. Many joint stock companies do not pay dividends, but the value of their shares can increase several times.</string>
+    <string name="personalSelectionScreen">Choose a currency and what amount would you like to start investing with?</string>
+    <string name="high_level">high</string>
+    <string name="average_level">average</string>
+    <string name="low_level">low</string>
+    <string name="personal_selection_warning">Please note that the level of risk depends on the level of possible loss or increase of income in the portfolio.</string>
+    <string name = "done"> done </string>
+    <string name="risk_middle">👌\nMiddle risk,\nI like it</string>
+    <string name="risk_slow">🎓\nSlow and steady\nwins the race</string>
+    <string name="risk_mothing">🚀\nNothing ventured,\nnothing gained!</string>
+    <string name="Filled">Filled in </string>
+    <string name = "personal_selection_money_qw"> What amount would you like to start investing with? </string>
+    <string name = "money_invest"> Investment amount </string>
+    <string name = "find"> find </string>
+    <string name = "stock_company"> Stocks, companies </string>
+    <string name="stock_information">Apple is an American corporation that manufactures personal and tablet computers, audio players, smartphones, and software. One of the pioneers in the field of personal computers and modern multitasking operating systems with a graphical interface. Headquartered in Cupertino, California.</string>
+    <string name="chat">chat</string>
+    <string name = "chat_menu1"> Your income \ nwith ZaazFin </string>
+    <string name = "chat_menu2"> Top 10 Best \ ncashbae </string>
+    <string name = "chat_menu3"> Easy to \ nInvest </string>
+    <string name="forgot_pin">forgot pin?</string>
+    <string name="Show_all_products">Show all products</string>
+    <string name="Hidden_products">"Hidden products"</string>
+    <string name = "investment_offer_heder"> You would have earned $ 3,000 </string>
+    <string name = "investment_offer_text"> If you had invested in the Miroye strategy ETF 10,000 rubles a year ago Why wait? Get started now! </string>
+    <string name = "invest_button_name"> Become an investor </string>
+    <string name="home_screen_setting_message"> "Customize the display and order of widgets on the home screen as you like"</string>
+    <string name="attach">attach</string>
+    <string name="send">send</string>
+    <string name="text">text</string>
+    <string name="background">background</string>
+    <string name="product">product</string>
+    <string name = "all_time"> all time </string>
+    <string name = "product_cost"> Product cost </string>
+    <string name="DEFAULT" tools:ignore="MissingTranslation">DEFAULT</string>
+    <string name="REMAINING" tools:ignore="MissingTranslation">REMAINING</string>
+    <string name="structure">structure</string>
+    <string name="code_from_SMS">Enter code from SMS</string>
+    <string name = "permission_title"> Request permissions </string>
+    <string name = "permission_message"> To attach images, you must grant the application access to the gallery. </string>
+    <string name = "permission_conferm_bt"> Allow </string>
+    <string name = "permission_dismiss_bt"> Later </string>
+    <string name="show_card_info">Show details</string>
+    <string name="copy">copy</string>
+    <string name="card_varning">This is a CVC2/CVV2 code
+Do not tell anyone</string>
+    <string name="card">Card</string>
+    <string name="transfer">Transfer</string>
+    <string name="top_up">Top up</string>
+    <string name="requisites">Requisites</string>
+    <string name="replenishment">replenishment</string>
+    <string name="service">service</string>
+    <string name="supermarket">supermarket</string>
+    <string name="auto_services">auto services</string>
+    <string name="other">other</string>
+    <string name="in_processing">in processing</string>
+    <string name="declined">declined</string>
+    <string name="returned">returned</string>
+    <string name="expired">expired</string>
+    <string name="pending">pending</string>
+    <string name="Recipient">Recipient</string>
+    <string name="Account_number">Account number</string>
+    <string name="Purpose_of_payment">Purpose of payment</string>
+    <string name="BIC">BIC</string>
+    <string name="Bank_of_recipient">Bank of recipient</string>
+    <string name="Corresponding_account">Corresponding account</string>
+    <string name="TIN_of_the_Bank">TIN of the Bank</string>
+    <string name="checkpoint_if_needed">checkpoint if needed</string>
+    <string name="QR_code_with_details">QR code with details</string>
+    <string name="Intermediary" translatable="false">Intermediary</string>
+    <string name="Intermediarys_Bank_SWIFT" translatable="false">Intermediary’s Bank SWIFT </string>
+    <string name="Intermediarys_Bank_Account" translatable="false">Intermediary’s Bank Account</string>
+    <string name="Beneficiary_Bank" translatable="false">Beneficiary Bank</string>
+    <string name="Beneficiarys_Bank_Address" translatable="false">Beneficiary’s Bank Address</string>
+    <string name="Beneficiarys_Bank_SWIFT" translatable="false">Beneficiary’s Bank SWIFT</string>
+    <string name="Beneficiary" translatable="false">Beneficiary</string>
+    <string name="add">add</string>
+    <string name="Add_new_card">Add new card</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Change_widgets">Change widgets</string>
+    <string name="setting_message">Customize the display and order of widgets on the screen as you like</string>
+    <string name="Сustomize_home_screen">Сustomize home screen</string>
+    <string name="Asset_overview">Asset overview</string>
+    <string name="Expenses">Expenses</string>
+    <string name="Income">Income</string>
+    <string name="card_type">card type</string>
+    <string name="detail">detail</string>
+    <string name="brokerage_account_in">brokerage account in</string>
+    <string name="for_all_time">for all time</string>
+    <string name="Customize_invest_screen">Сustomize invest screen</string>
+    <string name="profit">profit</string>
+    <string name="Clear">Clear</string>
+    <string name="investCard_image">investCard image</string>
+    <string name="search">search</string>
+    <string name="logo">logo</string>
+    <string name="plus">plus</string>
+    <string name="error">error</string>
+</resources>
+

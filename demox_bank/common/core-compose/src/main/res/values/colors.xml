@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black" tools:ignore="DuplicateDefinition,ResourceName">#000000</color>
+    <color name="transparency_100" tools:ignore="ResourceName">#88FFFFFF</color>
+    <color name="transparency_200" tools:ignore="ResourceName">#ccffffff</color>
+    <color name="transparent" tools:ignore="ResourceName">#00000000</color>
+    <color name="dark" tools:ignore="ResourceName">#9A000000</color>
+    <color name="dark_black" tools:ignore="ResourceName">#AA000000</color>
+    <color name="text_main" tools:ignore="ResourceName">#171E29</color>
+    <color name="line" tools:ignore="ResourceName">#0052CC</color>
+    <color name="start_gradient" tools:ignore="ResourceName">#4FA8C1FF</color>
+    <color name="period_select" tools:ignore="ResourceName">#0052CC</color>
+    <color name="white" tools:ignore="ResourceName">#FFFFFFFF</color>
+</resources>

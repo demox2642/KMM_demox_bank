@@ -1,10 +1,10 @@
 plugins {
-
     id("com.android.application")
+    id("org.jetbrains.compose")
     kotlin("android")
 }
 
-group = "org.example"
+group = "me.demox"
 version = "1.0"
 
 repositories {
@@ -12,27 +12,43 @@ repositories {
 }
 
 dependencies {
-//    implementation(project(":common"))
-    implementation("androidx.activity:activity-compose:1.4.0")
+    implementation(project(":common:core"))
+    //   implementation(project(":common:games:api"))
+    implementation(project(":common:umbrella-core"))
+    implementation(project(":common:umbrella-compose"))
+
+    implementation(Dependencies.Android.Compose.runtime)
+    implementation(Dependencies.Android.Compose.ui)
+    implementation(Dependencies.Android.Compose.material)
+    implementation(Dependencies.Android.Compose.icons)
+    implementation(Dependencies.Android.Compose.tooling)
+
+    implementation("com.google.android.material:material:1.6.1")
+    implementation("androidx.appcompat:appcompat:1.5.0")
 }
 
 android {
-    compileSdkVersion(31)
+    namespace = "com.demox.bank"
+    compileSdk = 32
     defaultConfig {
-        applicationId = "org.example.android"
-        minSdkVersion(24)
-        targetSdkVersion(31)
+        applicationId = "com.demox.bank.android"
+        minSdk = 23
+        targetSdk = 32
         versionCode = 1
         versionName = "1.0"
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+
+    buildFeatures {
+        compose = true
     }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.2.0"
+    }
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
         }
     }
-    namespace = "org.example.android"
 }
