@@ -1,7 +1,7 @@
 package login
 
 import com.adeo.kviewmodel.BaseSharedViewModel
-import di.Inject
+import json.di.Inject
 import kotlinx.coroutines.launch
 import login.models.LoginAction
 import login.models.LoginEvent

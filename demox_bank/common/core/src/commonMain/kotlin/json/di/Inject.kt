@@ -1,4 +1,4 @@
-package di
+package json.di
 
 import org.kodein.di.DirectDI
 import org.kodein.di.instance
