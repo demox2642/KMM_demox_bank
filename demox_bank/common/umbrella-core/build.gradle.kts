@@ -9,7 +9,7 @@ kotlin {
             dependencies {
                 implementation(project(":common:core"))
                 implementation(project(":common:core-utils"))
-
+                implementation(project(":common:auth:data"))
                 implementation(Dependencies.Kodein.core)
             }
         }
