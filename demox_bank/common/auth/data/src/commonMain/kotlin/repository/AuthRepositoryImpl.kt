@@ -32,6 +32,10 @@ class AuthRepositoryImpl(
         return token
     }
 
+    override fun isUserLoggedIn(): Boolean {
+        return cacheDataSource.fetchToken().isNotBlank()
+    }
+
     override suspend fun auth(phone: Long, password: String): AuthResponce<ConfirmCode> {
         return remoteDataSource.auth(
             loginRequest = LoginRequest(

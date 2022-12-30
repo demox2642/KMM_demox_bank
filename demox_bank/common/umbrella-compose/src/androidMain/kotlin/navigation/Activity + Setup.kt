@@ -1,4 +1,4 @@
-package navigation
+package navigation // ktlint-disable filename
 
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,7 +10,7 @@ import ru.alexgladkov.odyssey.compose.local.LocalRootController
 import ru.alexgladkov.odyssey.compose.navigation.RootComposeBuilder
 import ru.alexgladkov.odyssey.compose.navigation.modal_navigation.ModalNavigator
 import theme.AppTheme
-import theme.Theme
+import theme.AppTheme.AppTheme
 
 fun ComponentActivity.setupThemedNavigation() {
     val rootController = RootComposeBuilder().apply { generateGraph() }.build()
@@ -19,7 +19,7 @@ fun ComponentActivity.setupThemedNavigation() {
 
     setContent {
         AppTheme {
-            val backgroundColor = Theme.colors.primaryBackground
+            val backgroundColor = AppTheme.colors.systemBackgroundPrimary
             rootController.backgroundColor = backgroundColor
 
             CompositionLocalProvider(

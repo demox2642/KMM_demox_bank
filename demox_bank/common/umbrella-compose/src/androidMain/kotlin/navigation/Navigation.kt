@@ -14,7 +14,7 @@ fun RootComposeBuilder.generateGraph() {
     screen(name = NavigationTree.Main.Game.name) {
         Text("Hello, Game Detail", color = Color.White)
     }
-//
-//    authFlow()
+
+    authFlow()
 //    mainFlow()
 }
