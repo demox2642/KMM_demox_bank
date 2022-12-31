@@ -1,39 +1,56 @@
 import org.jetbrains.compose.compose
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
     kotlin("multiplatform")
-//    id("org.jetbrains.compose") version "1.1.1"
+    id("org.jetbrains.compose")
 }
-
-group = "org.example"
-version = "1.0"
 
 kotlin {
     jvm {
-        compilations.all {
-//            kotlinOptions.jvmTarget = "11"
-        }
         withJava()
     }
+
     sourceSets {
-        val jvmMain by getting {
+        commonMain {
             dependencies {
-//                implementation(project(":common"))
+                implementation(project(":common:core"))
+                implementation(project(":common:core-compose"))
+                implementation(project(":common:core-utils"))
+                implementation(project(":common:auth:compose"))
+                implementation(project(":common:umbrella-core"))
+                implementation(project(":common:umbrella-compose"))
+
+                implementation(Dependencies.Other.Navigation.core)
+                implementation(Dependencies.Other.Navigation.compose)
+            }
+        }
+
+        named("jvmMain") {
+            dependencies {
                 implementation(compose.desktop.currentOs)
             }
         }
-        val jvmTest by getting
     }
 }
 
-//compose.desktop {
-//    application {
-//        mainClass = "MainKt"
-//        nativeDistributions {
-//            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-//            packageName = "jvm"
-//            packageVersion = "1.0.0"
-//        }
-//    }
-//}
+compose.desktop {
+    application {
+        mainClass = "Main_desktopKt"
+
+        nativeDistributions {
+            targetFormats(
+                org.jetbrains.compose.desktop.application.dsl.TargetFormat.Dmg,
+                org.jetbrains.compose.desktop.application.dsl.TargetFormat.Msi,
+                org.jetbrains.compose.desktop.application.dsl.TargetFormat.Deb
+            )
+            packageName = "demox_bank"
+            packageVersion = "1.0.0"
+
+            windows {
+                menuGroup = "Demox BankKlient"
+                // see https://wixtoolset.org/documentation/manual/v3/howtos/general/generate_guids.html
+                upgradeUuid = "18159995-d967-4CD2-8885-77BFA97CFA9F"
+            }
+        }
+    }
+}

@@ -54,7 +54,7 @@ fun BankTheme(
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
+        // typography = Typography,
         shapes = Shapes,
         content = content
     )

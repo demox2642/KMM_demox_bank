@@ -30,5 +30,11 @@ kotlin {
                 implementation(Dependencies.Android.composeActivity)
             }
         }
+
+        desktopMain {
+            dependencies {
+                implementation(project(":common:core-compose"))
+            }
+        }
     }
 }
