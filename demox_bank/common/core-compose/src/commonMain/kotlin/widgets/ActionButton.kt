@@ -20,7 +20,7 @@ fun ActionButton(title: String, isSending: Boolean = false, onClick: () -> Unit)
             .fillMaxWidth()
             .height(56.dp),
         colors = ButtonDefaults.buttonColors(
-            backgroundColor = AppTheme.colors.systemBackgroundSecondary
+            backgroundColor = AppTheme.colors.controlGraphBlue
         ),
         enabled = !isSending,
         shape = RoundedCornerShape(10.dp),
@@ -30,7 +30,7 @@ fun ActionButton(title: String, isSending: Boolean = false, onClick: () -> Unit)
     ) {
         Text(
             title,
-            color = AppTheme.colors.systemTextPrimary,
+            color = AppTheme.colors.systemTextOnPrimary,
             fontSize = 16.sp,
             fontWeight = FontWeight.Bold
         )

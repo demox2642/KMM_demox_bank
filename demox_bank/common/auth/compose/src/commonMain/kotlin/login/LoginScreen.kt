@@ -49,7 +49,7 @@ fun LoginScreen() {
 
             Text(
                 modifier = Modifier.padding(top = 15.dp),
-                text = "Welcome back to PlayZone! Enter your email address and your password to enjoy the latest features of PlayZone",
+                text = "Welcome back to Demox BanK! Enter your phone and password.",
                 fontSize = 14.sp,
                 textAlign = TextAlign.Center,
                 color = AppTheme.colors.systemTextPrimary
@@ -59,7 +59,7 @@ fun LoginScreen() {
 
             CommonTextField(
                 value = state.value.phone,
-                placeholder = "Your Login",
+                placeholder = "Your Phone",
                 isSending = state.value.isSending
             ) {
                 viewModel.obtainEvent(LoginEvent.PhoneChanged(it))

@@ -30,8 +30,8 @@ fun CommonTextField(
         value = value,
         enabled = !isSending,
         colors = TextFieldDefaults.textFieldColors(
-            backgroundColor = Color(0xFF1F2430),
-            textColor = Color(0xFF696C75),
+            backgroundColor = AppTheme.colors.systemBackgroundSecondary,
+            textColor = AppTheme.colors.systemTextPrimary,
             cursorColor = AppTheme.colors.controlTextBlue,
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent
@@ -44,7 +44,7 @@ fun CommonTextField(
         trailingIcon = {
             trailingIcon
         },
-        placeholder = { Text(placeholder, color = AppTheme.colors.colorTextSuccess) },
+        placeholder = { Text(placeholder, color = AppTheme.colors.systemTextTertiary) },
         shape = RoundedCornerShape(10.dp),
         onValueChange = {
             onValueChanged.invoke(it)
