@@ -46,6 +46,16 @@ compose.desktop {
             packageName = "demox_bank"
             packageVersion = "1.0.0"
 
+//            macOS {
+//                iconFile.set(project.file("src/jvmMain/resources/icons/app_icon.icns"))
+//            }
+            windows {
+                iconFile.set(project.file("src/jvmMain/resources/icons/app_icon.ico"))
+            }
+            linux {
+                iconFile.set(project.file("src/jvmMain/resources/icons/app_icon.png"))
+            }
+
             windows {
                 menuGroup = "Demox BankKlient"
                 // see https://wixtoolset.org/documentation/manual/v3/howtos/general/generate_guids.html

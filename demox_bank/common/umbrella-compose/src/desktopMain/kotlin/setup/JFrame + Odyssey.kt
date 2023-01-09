@@ -21,7 +21,7 @@ fun JFrame.setupThemedNavigation() {
     }.build()
 
     defaultCloseOperation = WindowConstants.EXIT_ON_CLOSE
-    title = "PlayZone Admin"
+    title = "Demox bank. Client"
 
     val composePanel = ComposePanel()
     composePanel.setContent {
